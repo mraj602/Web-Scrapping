@@ -34,6 +34,8 @@ The scraper saves the following data for each review:
 
 The CSV file is saved as output.csv
 
+The output.csv file uploaded contains the reviews scraped for "Clorox Disinfecting Wipes 225 Count" on 31/07/2021.
+
 **Important Note** - The chromedriver.exe used for this project was a modified one. The original chromedriver might be detected by walmart and even human verification might fail. In such cases, Obfuscating JavaScript of chromedriver.exe might help. In this, the binary file of chromedriver.exe is changed, from "cdc_asdjflasutopfhvcZLmcfl_" to anything else. You can google "cdc_asdjflasutopfhvcZLmcfl_" to find out more.
 
 **Note** - The scraper might keep reloading even though no human verification page pops up. This might happen if later Walmart changes its website design and the xpath might no longer be valid. In such cases, merely changing the xpath values would work.
